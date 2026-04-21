@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: white;
+    color: #333;
+    padding-bottom: 50px;
+}
+
+header {
+    border: 2px solid rgb(255, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.caixa-busca {
+    background-color: #f3f3f4;
+    padding: 15px 20px;
+    border-radius: 30px;
+    color: #9e9ea7;
+    width: 300px;
+}
+
+.menu-principal ul,
+.menu-categorias ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.acoes-usuario {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.link-simples {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.botao-escuro {
+    background-color: #0d0c22;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.barra-filtros {
+    border: 2px solid rgb(255, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 40px;
+    margin-top: 10px;
+}
+
+.botao-contorno {
+    background-color: white;
+    border: 1px solid #e7e7e9;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.grid-galeria {
+    border: 2px solid rgb(255, 0, 0);
+    padding: 0 40px;
+    margin-top: 20px;
+
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+
+
+    gap: 35px;
+}
+
+.card {
+    border: 2px solid rgb(255, 0, 0);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.imagem-slot img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+}
+
+.info-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.85rem;
+    padding: 5px 0;
+}
+
+.autor {
+    font-weight: bold;
+}
+
+.status {
+    color: #9e9ea7;
+}

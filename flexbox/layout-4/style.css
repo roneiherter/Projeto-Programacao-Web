@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: black;
+    color: white;
+    padding: 40px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.container-principal {
+    border: 2px solid rgb(255, 0, 0);
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.secao-em-alta {
+    border: 2px solid rgb(255, 0, 0);
+    padding: 20px;
+}
+
+.lista-posteres {
+    display: flex;
+    gap: 15px;
+    overflow: hidden;
+}
+
+.poster-item {
+    border: 2px solid rgb(255, 0, 0);
+    flex: 0 0 160px;
+    height: 230px;
+    background-color: #333;
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+    font-size: 4rem;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.secao-beneficios {
+    border: 2px solid rgb(255, 0, 0);
+    padding: 20px;
+}
+
+.grid-beneficios {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.card-beneficio {
+    border: 2px solid rgb(255, 0, 0);
+    background: linear-gradient(90deg, rgb(118, 1, 1), rgb(0, 0, 142));
+    padding: 25px;
+    border-radius: 12px;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-beneficio h3 {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+}
+
+.card-beneficio p {
+    color: #b3b3b3;
+    font-size: 1rem;
+    line-height: 1.4;
+}
